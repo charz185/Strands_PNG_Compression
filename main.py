@@ -5,10 +5,6 @@ import time
 import os
 import numpy as np
 from PIL import Image
-#
-import logging
-numba_logger = logging.getLogger('numba')
-numba_logger.setLevel(logging.WARNING)
 
 #Pygame initialization of display and module.
 pygame.init()
