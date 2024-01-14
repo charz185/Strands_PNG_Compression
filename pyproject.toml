@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-template"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0"
+pygame = "^2.1.2"
+dearpygui = "1.10.1"
+numpy = "^1.26.2"
+pillow = "^10.1.0"
+numba = "^0.58.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
