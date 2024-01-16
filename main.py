@@ -23,13 +23,13 @@ def RGBAPixelToIndex(Pixel):
 def PixelLibraryIndexToPixel(Index):
   Pixel = [0,0,0,0]
   for i in range(Index):
-    if Pixel[0] <= 255:
+    if Pixel[0] <= 254:
       Pixel[0] +=1
-    elif Pixel[1] <= 255:
+    elif Pixel[1] <= 254:
       Pixel[1] +=1
-    elif Pixel[2] <= 255:
+    elif Pixel[2] <= 254:
       Pixel[2] += 1
-    elif Pixel[3] <= 255:
+    elif Pixel[3] <= 254:
       Pixel[3] += 1
   return Pixel
 
